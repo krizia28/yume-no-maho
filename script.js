@@ -1,7 +1,3 @@
-
-
-
-
 let citations = [
 "Plus la nuit est noire, plus les étoiles brillent.",
 "Le cœur d’un homme peut être plus dangereux qu’un démon.",
