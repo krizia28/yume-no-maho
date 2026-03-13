@@ -22,10 +22,10 @@ body::before {
 
   opacity: 0.4;
   pointer-events: none;
-  body::before,
+ 
+} body::before,
 body::after {
   z-index: -1;
-}
 
 /* aura magique */
 body::after {
