@@ -70,9 +70,12 @@ nav a:hover{
 color:#8b5cf6;
 }
 .logo {
-  width: 250px;
+   width: 420px;
   display: block;
-  margin: 20px auto;
+  margin: 50px auto;
+  filter: drop-shadow(0 0 12px gold);
+
 }
+
 
 
