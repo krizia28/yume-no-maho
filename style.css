@@ -66,3 +66,9 @@ font-weight:bold;
 nav a:hover{
 color:#8b5cf6;
 }
+.logo {
+  width: 250px;
+  display: block;
+  margin: 20px auto;
+}
+
