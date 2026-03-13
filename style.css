@@ -72,10 +72,23 @@ color:#8b5cf6;
 .logo {
    width: 420px;
   display: block;
-  margin: 50px auto;
+  margin: 40px auto;
   filter: drop-shadow(0 0 12px gold);
+  animation: magicGlow 3s infinite;
 
 }
+@keyframes magicGlow {
+  0% {
+    filter: drop-shadow(0 0 10px #7c3aed);
+  }
+  50% {
+    filter: drop-shadow(0 0 20px #a78bfa);
+  }
+  100% {
+    filter: drop-shadow(0 0 10px #7c3aed);
+  }
+}
+
 
 
 
