@@ -16,10 +16,13 @@ main {
 /* titre principal */
 h1 {
   text-align: center;
-  color: #c4b5fd;
   font-size: 3rem;
   letter-spacing: 2px;
-  text-shadow: 0 0 10px #8b5cf6;
+  color: #e6d7ff;
+  text-shadow:
+    0 0 10px #8a6cff,
+    0 0 20px #6f52ff,
+    0 0 40px #3b2aff;
 }
 
 /* titres secondaires */
@@ -71,4 +74,5 @@ color:#8b5cf6;
   display: block;
   margin: 20px auto;
 }
+
 
