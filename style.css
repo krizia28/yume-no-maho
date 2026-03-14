@@ -273,3 +273,11 @@ border-left:3px solid #8b5cf6;
 padding-left:20px;
 
 }
+.contact-hidden{
+display:none;
+margin-top:20px;
+}
+
+.contact-visible{
+display:block;
+}
