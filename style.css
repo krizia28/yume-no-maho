@@ -150,7 +150,28 @@ color:#8b5cf6;
   background:#8b5cf6;
   box-shadow:0 0 20px #8b5cf6;
 }
+.hero img,
+.hero .tagline,
+.hero .enter-world {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeMagic 1.5s ease forwards;
+}
 
+.hero .tagline {
+  animation-delay: 0.6s;
+}
+
+.hero .enter-world {
+  animation-delay: 1.2s;
+}
+
+@keyframes fadeMagic {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 
 
