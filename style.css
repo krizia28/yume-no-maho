@@ -106,7 +106,7 @@ color:#8b5cf6;
 .logo {
    width: 420px;
   display: block;
-  margin: 40px auto;
+  margin: 60px auto 20px auto;
   filter: drop-shadow(0 0 12px gold);
   animation: magicGlow 3s infinite;
 
