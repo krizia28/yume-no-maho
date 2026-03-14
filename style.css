@@ -74,7 +74,7 @@ color:#d6d6f5;
 max-width:700px;
 margin-bottom:25px;
 }
-}
+
 
 /* header */
 header {
@@ -103,18 +103,11 @@ border-radius:6px;
 transition:0.3s;
 }
 
-footer .contact-button:hover{
-background:#8b5cf6;
-box-shadow:0 0 20px #8b5cf6;
-}
-
 .copyright{
 font-size:0.9rem;
 color:#777;
 }
 
-
-}
 nav{
 background:rgba(20,20,32,0.8);
 padding:15px;
