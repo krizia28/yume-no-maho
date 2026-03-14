@@ -7,22 +7,13 @@ const citations = [
 ];
 
 const random = Math.floor(Math.random() * citations.length);
-
 document.getElementById("citation").innerText = citations[random];
 
-});
-
-
-function toggleContact(){
-
-const contact = document.getElementById("contact-info");
-
-contact.classList.toggle("contact-visible");
-
-}
 const reveal = document.querySelector(".reveal-text");
 
-window.addEventListener("scroll", () => {
+window.addEventListener("scroll", function(){
+
+if(!reveal) return;
 
 const position = reveal.getBoundingClientRect().top;
 const screenPosition = window.innerHeight * 0.8;
@@ -30,5 +21,7 @@ const screenPosition = window.innerHeight * 0.8;
 if(position < screenPosition){
 reveal.classList.add("visible");
 }
+
+});
 
 });
