@@ -311,4 +311,33 @@ transition:all 1.2s ease;
 opacity:1;
 transform:translateY(0);
 }
+/* effet doré magique */
 
+.reveal-text.visible p{
+background: linear-gradient(
+90deg,
+#caa85a,
+#ffd700,
+#fff2b0,
+#ffd700,
+#caa85a
+);
+
+background-size:200%;
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+animation:goldReveal 3s linear forwards;
+}
+
+@keyframes goldReveal{
+
+0%{
+background-position:-200%;
+}
+
+100%{
+background-position:200%;
+}
+
+}
