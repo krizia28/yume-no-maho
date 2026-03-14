@@ -289,3 +289,11 @@ background:#8b5cf6;
 color:white;
 box-shadow:0 0 15px #8b5cf6;
 }
+.contact-hidden{
+display:none;
+}
+
+.contact-visible{
+display:block;
+margin-top:20px;
+}
