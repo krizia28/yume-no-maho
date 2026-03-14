@@ -301,13 +301,14 @@ to{
 opacity:1;
 transform:translateY(0);
 }
-}
-.reveal-text p{
-color:#4b4b6a;
-transition:color 1s ease;
+.reveal-text{
+opacity:0;
+transform:translateY(40px);
+transition:all 1.2s ease;
 }
 
-.reveal-text.visible p{
-color:#e6d7ff;
-text-shadow:0 0 10px rgba(255,215,120,0.4);
+.reveal-text.visible{
+opacity:1;
+transform:translateY(0);
 }
+
