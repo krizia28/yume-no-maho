@@ -8,3 +8,19 @@ let random = Math.floor(Math.random() * citations.length);
 
 document.getElementById("citation").innerText = citations[random];
 
+
+function toggleContact() {
+
+const contact = document.getElementById("contact-info");
+
+if(contact.classList.contains("contact-visible")){
+
+contact.classList.remove("contact-visible");
+
+}else{
+
+contact.classList.add("contact-visible");
+
+}
+
+}
