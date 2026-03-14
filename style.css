@@ -121,8 +121,35 @@ color:#8b5cf6;
   100% {
     filter: drop-shadow(0 0 10px #7c3aed);
   }
+
+.hero{
+  text-align:center;
+  padding:100px 20px;
 }
 
+.tagline{
+  font-size:1.3rem;
+  margin-top:20px;
+  color:#c4b5fd;
+  letter-spacing:1px;
+}
+
+.enter-world{
+  display:inline-block;
+  margin-top:40px;
+  padding:12px 28px;
+  border:1px solid #8b5cf6;
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+  border-radius:6px;
+  transition:0.3s;
+}
+
+.enter-world:hover{
+  background:#8b5cf6;
+  box-shadow:0 0 15px #8b5cf6;
+}
 
 
 
