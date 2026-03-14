@@ -292,8 +292,21 @@ box-shadow:0 0 15px #8b5cf6;
 .contact-hidden{
 display:none;
 }
-
 .contact-visible{
 display:block;
 margin-top:20px;
+animation:fadeContact 0.4s ease;
 }
+
+@keyframes fadeContact{
+from{
+opacity:0;
+transform:translateY(10px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
