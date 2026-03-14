@@ -122,12 +122,12 @@ nav a:hover::after{
 width:100%;
 }
 .logo {
-   width: 420px;
+   width: 650px;
   display: block;
-  margin: 60px auto 20px auto;
-  filter: drop-shadow(0 0 12px gold);
+  margin: 120px auto 40px auto;
+ filter:drop-shadow(0 0 15px #7c3aed);
   animation: magicGlow 3s infinite;
- max-width: 80%;
+ max-width: 90%;
 }
 @keyframes magicGlow {
   0% {
