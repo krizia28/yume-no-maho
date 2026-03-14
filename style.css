@@ -124,7 +124,7 @@ color:#8b5cf6;
 
 .hero{
   text-align:center;
-  padding:100px 20px;
+  padding:120px 20px 80px 20px;
 }
 
 .tagline{
@@ -136,7 +136,7 @@ color:#8b5cf6;
 
 .enter-world{
   display:inline-block;
-  margin-top:40px;
+  margin-top:25px;
   padding:12px 28px;
   border:1px solid #8b5cf6;
   color:white;
@@ -148,7 +148,7 @@ color:#8b5cf6;
 
 .enter-world:hover{
   background:#8b5cf6;
-  box-shadow:0 0 15px #8b5cf6;
+  box-shadow:0 0 20px #8b5cf6;
 }
 
 
