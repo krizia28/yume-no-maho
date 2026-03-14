@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function(){
 
 const citations = [
 "Plus la nuit est noire, plus les étoiles brillent.",
@@ -25,3 +25,8 @@ reveal.classList.add("visible");
 });
 
 });
+
+function toggleContact(){
+const contact = document.getElementById("contact-info");
+contact.classList.toggle("contact-visible");
+}
