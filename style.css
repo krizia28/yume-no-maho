@@ -185,6 +185,27 @@ body::before{
 animation: starMove 120s linear infinite;
 }
 
+.shooting-star{
+position:fixed;
+top:20%;
+left:-100px;
+width:3px;
+height:3px;
+background:white;
+box-shadow:0 0 10px white,0 0 20px white;
+transform:rotate(45deg);
+animation:shoot 8s linear infinite;
+}
 
+@keyframes shoot{
+0%{
+transform:translateX(0) translateY(0) rotate(45deg);
+opacity:1;
+}
+100%{
+transform:translateX(120vw) translateY(50vh) rotate(45deg);
+opacity:0;
+}
+}
 
 
