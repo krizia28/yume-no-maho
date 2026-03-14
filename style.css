@@ -273,11 +273,19 @@ border-left:3px solid #8b5cf6;
 padding-left:20px;
 
 }
-.contact-hidden{
-display:none;
-margin-top:20px;
+.contact-button{
+font-family:'Inter',sans-serif;
+background:transparent;
+color:#e6d7ff;
+border:1px solid #8b5cf6;
+padding:12px 26px;
+border-radius:6px;
+cursor:pointer;
+transition:all 0.3s ease;
 }
 
-.contact-visible{
-display:block;
+.contact-button:hover{
+background:#8b5cf6;
+color:white;
+box-shadow:0 0 15px #8b5cf6;
 }
