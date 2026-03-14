@@ -20,3 +20,15 @@ const contact = document.getElementById("contact-info");
 contact.classList.toggle("contact-visible");
 
 }
+const reveal = document.querySelector(".reveal-text");
+
+window.addEventListener("scroll", () => {
+
+const position = reveal.getBoundingClientRect().top;
+const screenPosition = window.innerHeight * 0.8;
+
+if(position < screenPosition){
+reveal.classList.add("visible");
+}
+
+});
