@@ -86,22 +86,34 @@ footer {
   color: #777;
 
 }
-/* navigation */
-
 nav{
-background-color:#141420;
+background:rgba(20,20,32,0.8);
 padding:15px;
+backdrop-filter:blur(8px);
+text-align:center;
 }
 
 nav a{
 color:white;
 text-decoration:none;
-margin-right:20px;
+margin:0 20px;
 font-weight:bold;
+position:relative;
 }
 
-nav a:hover{
-color:#8b5cf6;
+nav a::after{
+content:"";
+position:absolute;
+width:0;
+height:2px;
+background:#8b5cf6;
+left:0;
+bottom:-5px;
+transition:0.3s;
+}
+
+nav a:hover::after{
+width:100%;
 }
 .logo {
    width: 420px;
