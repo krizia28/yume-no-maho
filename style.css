@@ -318,26 +318,36 @@ transform:translateY(0);
 }
 
 /* texte doré animé */
-
 .reveal-text.visible p{
 background: linear-gradient(
-90deg,
-#caa85a,
-#ffd700,
-#fff2b0,
-#ffd700,
-#caa85a
+120deg,
+#caa85a 20%,
+#ffd700 40%,
+#ffffff 50%,
+#ffd700 60%,
+#caa85a 80%
 );
 
-background-size:200% auto;
+background-size:300% auto;
 
 background-clip:text;
 -webkit-background-clip:text;
 
-color:transparent!important;
+color:transparent;
 -webkit-text-fill-color:transparent;
 
-animation:goldReveal 3s linear forwards;
+animation:goldSweep 4s linear infinite;
+}
+@keyframes goldSweep{
+
+0%{
+background-position:-300% center;
+}
+
+100%{
+background-position:300% center;
+}
+
 }
 
 @keyframes goldReveal{
