@@ -493,3 +493,19 @@ border:1px solid rgba(120,255,150,0.4);
 background:rgba(20,40,30,0.6);
 
 }
+.lore-section{
+
+max-width:800px;
+margin:80px auto;
+
+background:rgba(20,20,40,0.6);
+
+padding:40px;
+
+border-radius:10px;
+
+border:1px solid rgba(139,92,246,0.2);
+
+box-shadow:0 0 20px rgba(139,92,246,0.15);
+
+}
