@@ -443,3 +443,44 @@ font-size:1.2rem;
 color:#c4b5fd;
 
 }
+.character-card{
+
+display:block;
+
+background:rgba(20,20,40,0.6);
+
+border-radius:12px;
+
+overflow:hidden;
+
+text-decoration:none;
+
+color:white;
+
+transition:all 0.3s ease;
+
+}
+
+.character-card img{
+
+width:100%;
+
+display:block;
+
+}
+
+.character-info{
+
+padding:20px;
+
+text-align:center;
+
+}
+
+.character-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 0 30px rgba(120,255,160,0.4);
+
+}
