@@ -318,17 +318,18 @@ transform:translateY(0);
 }
 
 /* texte doré animé */
-.reveal-text.visible p{
+.univers-page .reveal-text.visible p{
+
 background: linear-gradient(
-120deg,
-#caa85a 20%,
-#ffd700 40%,
-#ffffff 50%,
-#ffd700 60%,
-#caa85a 80%
+90deg,
+#d6c07a,
+#f2e3a0,
+#fff6c8,
+#f2e3a0,
+#d6c07a
 );
 
-background-size:300% auto;
+background-size:200% auto;
 
 background-clip:text;
 -webkit-background-clip:text;
@@ -336,7 +337,8 @@ background-clip:text;
 color:transparent;
 -webkit-text-fill-color:transparent;
 
-animation:goldSweep 4s linear infinite;
+animation:goldSweep 2.5s ease forwards;
+
 }
 @keyframes goldSweep{
 
