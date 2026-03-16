@@ -387,10 +387,7 @@ align-items:stretch;
 transform:translateY(-8px);
 }
 
-.character-card img{
-width:160px;
-margin-bottom:15px;
-}
+
 .character-profile{
 
 max-width:800px;
@@ -464,6 +461,10 @@ height:260px;
 object-fit:cover;
 
 border-radius:10px 10px 0 0;
+
+display:block;
+
+}
 
 
 }
