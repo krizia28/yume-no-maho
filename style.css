@@ -471,13 +471,16 @@ display:block;
 
 .character-info{
 
-padding:20px;
+padding:25px;
 
 text-align:center;
 
 }
-
-.character-card:hover{
+.character-info p{
+opacity:0.9;
+line-height:1.6;
+.character-card:hover
+{
 
 transform:translateY(-8px);
 
@@ -490,4 +493,12 @@ box-shadow:0 0 35px rgba(100,255,150,0.6);
 
 background:rgba(20,40,30,0.9);
 
+}
+.character-card img{
+width:100%;
+height:auto;
+display:block;
+border-radius:10px 10px 0 0;
+max-height:420px;
+object-fit:cover;  
 }
