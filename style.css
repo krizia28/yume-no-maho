@@ -376,4 +376,35 @@ z-index:999;
 #portal.active{
 opacity:1;
 }
+.characters{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:40px;
+margin-top:40px;
+}
 
+.character-card{
+
+background:rgba(20,20,40,0.6);
+
+padding:25px;
+
+border-radius:10px;
+
+border:1px solid rgba(139,92,246,0.2);
+
+box-shadow:0 0 20px rgba(139,92,246,0.15);
+
+text-align:center;
+
+transition:transform 0.3s ease;
+}
+
+.character-card:hover{
+transform:translateY(-8px);
+}
+
+.character-card img{
+width:160px;
+margin-bottom:15px;
+}
