@@ -30,3 +30,24 @@ function toggleContact(){
 const contact = document.getElementById("contact-info");
 contact.classList.toggle("contact-visible");
 }
+const enterButton = document.getElementById("enterButton");
+
+if(enterButton){
+
+enterButton.addEventListener("click", function(e){
+
+e.preventDefault();
+
+const portal = document.getElementById("portal");
+
+portal.classList.add("active");
+
+setTimeout(() => {
+
+window.location.href = "univers.html";
+
+}, 800);
+
+});
+
+}
