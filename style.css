@@ -452,19 +452,6 @@ text-align:center;
 transition:all 0.3s ease;
 
 }
-.character-card img{
-
-width:100%;
-
-height:240px;
-
-object-fit:cover;
-
-border-radius:10px 10px 0 0;
-
-display:block;
-
-}
 
 
 .character-info{
