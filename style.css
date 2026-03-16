@@ -484,3 +484,10 @@ transform:translateY(-8px);
 box-shadow:0 0 30px rgba(120,255,160,0.4);
 
 }
+.camelia-card:hover{
+
+box-shadow:0 0 35px rgba(100,255,150,0.6);
+
+background:rgba(20,40,30,0.9);
+
+}
