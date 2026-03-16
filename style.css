@@ -58,6 +58,7 @@ h1 {
     0 0 10px #8a6cff,
     0 0 20px #6f52ff,
     0 0 40px #3b2aff;
+  margin-bottom:60px;
 }
 
 /* titres secondaires */
@@ -380,7 +381,6 @@ opacity:1;
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:40px;
-margin-top:40px;
 align-items:stretch;
 }
 .character-card:hover{
