@@ -525,28 +525,41 @@ background: radial-gradient(circle, rgba(180,120,255,0.15), transparent 70%);
 pointer-events:none;
 z-index:-1;
 }
-.rose-page h1{
-text-shadow:
-0 0 10px #a78bfa,
-0 0 20px #8b5cf6,
-0 0 40px #6d28d9;
-}
-/* HERO ROSE IMMERSIF */
+/* HERO IMAGE SEULE */
 .rose-hero {
-  position: relative;
-  height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
-  overflow: hidden;
+  align-items: center;
+  padding-top: 60px;
 }
 
 .rose-hero img {
-  height: 85%;
-  bottom: 0;
-  z-index: 1;
+  max-width: 600px;
+  width: 100%;
   filter: drop-shadow(0 0 40px #a78bfa);
-  position: relative;
+}
+
+/* SECTION TITRE */
+.rose-title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+/* TITRE STYLE AFFICHE */
+.rose-title h1 {
+  font-size: 3.5rem;
+  color: #e9d5ff;
+  text-shadow: 0 0 25px #8b5cf6;
+  letter-spacing: 2px;
+}
+
+/* CITATION */
+.rose-title p {
+  margin-top: 15px;
+  font-style: italic;
+  color: #c4b5fd;
+  opacity: 0.9;
 }
 /* OVERLAY ASSOMBRI (clé du rendu pro) */
 .rose-hero::before {
