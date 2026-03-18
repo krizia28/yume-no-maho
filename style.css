@@ -571,9 +571,13 @@ text-shadow:
 
 /* TEXTE HERO */
 .rose-text {
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 3;
   text-align: center;
+  width: 90%;
 }
 
 .rose-text h1 {
