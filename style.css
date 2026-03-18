@@ -568,6 +568,9 @@ z-index:-1;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
 }
 /* CONTENU GRID */
 .rose-content {
