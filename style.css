@@ -561,58 +561,6 @@ z-index:-1;
   color: #c4b5fd;
   opacity: 0.9;
 }
-/* OVERLAY ASSOMBRI (clé du rendu pro) */
-.rose-hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(0,0,0,0.3),
-    rgba(0,0,0,0.7)
-  );
-  z-index: 2;
-}
-
-.rose-overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(circle, rgba(167,139,250,0.2), transparent 70%);
-  z-index: 1;
-}
-
-/* TEXTE HERO */
-.rose-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 3;
-  text-align: center;
-  width: 90%;
-animation: fadeHero 1.5s ease forwards;
-  opacity: 0;
-}
-
-@keyframes fadeHero {
-  to {
-    opacity: 1;
-  }
-}
-
-.rose-text h1 {
-  font-size: 4rem;
-  text-shadow: 0 0 30px #8b5cf6;
-  letter-spacing: 2px;
-}
-
-.rose-text p {
-  font-style: italic;
-  margin-top: 15px;
-  color: #c4b5fd;
-}
-
 /* CONTENU GRID */
 .rose-content {
   max-width: 1100px;
