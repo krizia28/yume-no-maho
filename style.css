@@ -578,11 +578,20 @@ text-shadow:
   z-index: 3;
   text-align: center;
   width: 90%;
+animation: fadeHero 1.5s ease forwards;
+  opacity: 0;
+}
+
+@keyframes fadeHero {
+  to {
+    opacity: 1;
+  }
 }
 
 .rose-text h1 {
   font-size: 4rem;
   text-shadow: 0 0 30px #8b5cf6;
+  letter-spacing: 2px;
 }
 
 .rose-text p {
