@@ -655,3 +655,39 @@ z-index:-1;
   transform: translateY(-10px) scale(1.02);
   box-shadow: 0 0 40px rgba(139,92,246,0.4);
 }d18.03*/
+/* 🎮 MODE JEU VIDEO */
+
+.game-select .character-card {
+  filter: brightness(0.6);
+  transition: 0.4s;
+}
+
+.game-select:hover .character-card {
+  filter: brightness(0.3);
+}
+
+/* CARTE ACTIVE */
+.game-select .character-card:hover {
+  transform: scale(1.08);
+  filter: brightness(1);
+  z-index: 2;
+}
+
+/* ZOOM IMAGE */
+.game-select .character-card img {
+  transition: 0.4s;
+}
+
+.game-select .character-card:hover img {
+  transform: scale(1.1);
+}
+
+/* TEXTE QUI MONTE */
+.game-select .character-info {
+  transform: translateY(30%);
+  transition: 0.4s;
+}
+
+.game-select .character-card:hover .character-info {
+  transform: translateY(0);
+}
